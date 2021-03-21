@@ -19,12 +19,16 @@ p <- ggplot(DF3, aes(x = V1,
              colors = factor(V1))+
   stat_summary(fun.y = "mean", geom = "point", size = 3)+
   stat_summary(geom="errorbar",
+               width = 10, size = 1,
                fun.y  = "median",
                fun.ymin = function(x) quantile(x)[2],
                fun.ymax = function(x) quantile(x)[4],size =1) +
   stat_summary(geom="line",
                fun.y = "median",size=1)+theme_bw()
 
+p <- p + scale_x_continuous(breaks=c(10,25,50,75,100,150))
+p <- p + xlab("Read depth")
+p <- p + ylab("The number of SNPs")
 p
 
 
