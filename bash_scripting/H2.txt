@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR114/005/ERR1144975/ERR1144975_2.fastq.gz -o ERR1144975_Illumina_HiSeq_2000_paired_end_sequencing_2.fastq.gz
+fdjlkldjfkdjld
