@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-this is a sample of my work

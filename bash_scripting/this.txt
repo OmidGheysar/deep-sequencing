@@ -1,6 +1,0 @@
-﻿#!/usr/bin/env bash
-Omid Gheysar Ghramaleki
-PhD student in Applied Mathematics
-Form university of Simon Fraser
-Congratulations!
-end
