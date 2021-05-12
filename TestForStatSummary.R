@@ -26,14 +26,11 @@ p <- ggplot(DF3, aes(x = V1,
   stat_summary(geom="line",
                fun.y = "median",size=1)+theme_bw()
 
-p <- p + scale_x_continuous(breaks=c(10,25,50,75,100,150))
+p <- p + scale_x_continuous(breaks=c(10,20,50,100,150,200,300))
 p <- p + xlab("Read depth")
 p <- p + ylab("The number of SNPs")
 p
 
-
-nuclear <- c(7, 20, 16, 6, 58, 9, 20, 50, 23, 33, 8, 10, 15, 16, 104)
-quantile(nuclear)[2]
 
 
 
