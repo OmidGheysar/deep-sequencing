@@ -47,7 +47,7 @@ for (i in 1:10) {
 # the given set of parameters several output file will be generated for one vcf file
 # one includes all of the indels another provides low quality variation (below20) 
 # for deatil on the paramter I should refere to vcfProcess.R filw
-depths <- c(10,20,50,100,150,200,300)
+depths <- c(10,25,50,75,100,150)
 for (i in 1:10) {
   for (j in depths){
     auto <- paste("allsamples", i, j, sep="_")
@@ -97,7 +97,7 @@ g1
 write.csv(DF3, file = 'data_74.csv')
 M3 <- matrix(nrow = 70, ncol = 2)
 count <- 0
-depths <- c(10,20,50,100,150,200,300)
+depths <- c(10,25,50,75,100,150)
 for (i in 1:10) {
   for (j in depths){
     count <- count +1
