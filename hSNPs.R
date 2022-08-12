@@ -61,3 +61,10 @@ numberOfhSNPS <- function(inputFile){
 
 numberOfhSNPS("allsamples_1_20.vcf")
 
+
+library(credentials)
+git_credential_ask('https://github.com/OmidGheysar/deep-sequencing.git')
+credential_helper_get()
+library(credentials)
+git_credential_ask('https://github.com/OmidGheysar')
+
