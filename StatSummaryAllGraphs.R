@@ -55,7 +55,7 @@ p2 <- p2 + ylab("The proportion of hSNPs")
 p2 <- p2 + ylab("The proportion of SNPs")
 p2
 
-
+#this is added
 
 
 
