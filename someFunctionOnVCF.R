@@ -47,7 +47,7 @@ x <- c(12,24,19)
 any(x<20)
 all(x<20)
 
-
+# check for github purpose
 
 
 
